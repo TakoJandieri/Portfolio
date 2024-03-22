@@ -13,6 +13,7 @@ import tic from "../assets/tictac.png";
 import price from "../assets/price.jpeg";
 import fylo from "../assets/fylo.jpeg";
 import equ from "../assets/equ(1).png";
+import clockApp from "../assets/clockApp.jpg";
 import "./FrontEndPage.css";
 
 // import "../index.css";
@@ -164,7 +165,30 @@ function FrontEndPage() {
             </a>
           </div>
         </nav>
+
         <div className="fprojectsContainer">
+          <div className="fproject">
+            <h3 className="projectName">Clock-App</h3>
+            <a
+              href="https://takojandieri.github.io/Clock-App-React/"
+              target="_blank"
+            >
+              <div className="projectImg">
+                <p>Click to open live URL</p>
+                <img src={clockApp} />
+              </div>
+            </a>
+            <p>
+              Repo Link:{" "}
+              <a
+                href="https://github.com/TakoJandieri/Clock-App-React"
+                target="_blank"
+              >
+                click here
+              </a>
+            </p>
+          </div>
+
           <div className="fproject">
             <h3 className="projectName">Tic-Tac-Toe Game</h3>
             <a
